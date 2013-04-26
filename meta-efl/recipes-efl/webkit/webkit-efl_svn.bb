@@ -16,6 +16,8 @@ PR = "r2"
 
 SRCREV_FORMAT = "source"
 
+GPERF[unexport] = "1"
+
 SRC_URI = "\
     svn://svn.webkit.org/repository/webkit/trunk;module=Source;name=source;protocol=http;subdir=src \
     svn://svn.webkit.org/repository/webkit/trunk/;module=WebKitLibraries;protocol=http;subdir=src \
